@@ -29,7 +29,7 @@ from adafruit_mcp3xxx.mcp3008 import MCP3008
 from adafruit_mcp3xxx.analog_in import AnalogIn
 from w1thermsensor import W1ThermSensor
 
-# --- Hardware Configuration ---
+# Hardware Configuration
 # 1. Initialize SPI and MCP3008 ADC
 spi = busio.SPI(clock=board.SCK, MOSI=board.MOSI, MISO=board.MISO)
 cs = digitalio.DigitalInOut(board.D8)  # CE0 / Pin 24
